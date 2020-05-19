@@ -1,0 +1,14 @@
+<svg width="64" height="64" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="Glyph_copy_2">
+   <path fill="white" id="svg_1" d="m63.125,9.977c-0.902,-1.321 -2.419,-2.194 -4.131,-2.194l-53.988,0c-1.676,0 -3.158,0.842 -4.067,2.117l31.16,25.982l31.026,-25.905z"/>
+   <path fill="white" id="svg_2" d="m0.006,14.328l0,36.889c0,2.75 2.25,5 5,5l53.988,0c2.75,0 5,-2.25 5,-5l0,-36.756l-31.895,26.629l-32.093,-26.762z"/>
+  </g>
+ </g>
+</svg>
