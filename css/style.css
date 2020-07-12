@@ -386,11 +386,11 @@ body {
 @media (max-width: 1150px) {
   .section__list-item:hover .section__list-item-title {
  top: 15px;
-
 }
 
 .section__list-item:hover .section__list-item-link {
  bottom: 15px;
+ left: 10px;
 }
 }
 
