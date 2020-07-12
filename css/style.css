@@ -467,12 +467,5 @@ body {
     grid-template-columns: 100%;
   }
 
-  .section__list-item-title, .section__list-link {
-    display: grid;
-    justify-content: center;
-  }
-
-  .section__list-link a {
-    justify-self: center;
-  }
+  
 }
