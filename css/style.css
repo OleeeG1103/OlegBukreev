@@ -383,7 +383,7 @@ body {
   text-align: center;
 }
 
-@media (max-width: 1150px) {
+@media (min-width: 992px) and (max-width: 1150px) {
   .section__list-item:hover .section__list-item-title {
  top: 15px;
 }
