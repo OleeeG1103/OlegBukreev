@@ -383,6 +383,17 @@ body {
   text-align: center;
 }
 
+@media (max-width: 1150px) {
+  .section__list-item:hover .section__list-item-title {
+ top: 15px;
+
+}
+
+.section__list-item:hover .section__list-item-link {
+ bottom: 15px;
+}
+}
+
 @media (max-width: 991px) {
   .wrapper {
     grid-template-rows: 230px 1fr auto;
