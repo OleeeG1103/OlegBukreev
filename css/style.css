@@ -175,7 +175,7 @@ body {
     stroke-dasharray: 0 1000;
   }
   to {
-    stroke-dasharray: 150% 1000;
+    stroke-dasharray: 175% 1000;
   }
 }
 
@@ -197,12 +197,30 @@ body {
   }
 }
 
+@keyframes progress-vue-js {
+  from {
+    stroke-dasharray: 0 1000;
+  }
+  to {
+    stroke-dasharray: 50% 1000;
+  }
+}
+
 @keyframes progress-bem {
   from {
     stroke-dasharray: 0 1000;
   }
   to {
     stroke-dasharray: 220% 1000;
+  }
+}
+
+@keyframes progress-word-press {
+  from {
+    stroke-dasharray: 0 1000;
+  }
+  to {
+    stroke-dasharray: 100% 1000;
   }
 }
 

@@ -105,11 +105,27 @@
                     <div class="skills__list-item">
                         <svg class="skills__list-item-svg" width="128" height="128">
                             <circle cy="64" cx="136" r="60" fill="transparent" stroke="var(--skills-border-color)" stroke-width="8" stroke-dasharray="0,0,1000" transform="rotate(-90 100 100)"></circle>
+                            <circle class="progress--vue-js" cy="64" cx="136" r="60" fill="transparent" stroke="var(--skills-border-value-color)" stroke-width="8" stroke-dasharray="0% 1000" transform="rotate(-90 100 100)"></circle>
+                            <image x="25%" y="25%" width="64" height="64" xlink:href="img/vueJs.svg"></image>
+                        </svg>
+                        <span class="skills__list-item-name">Vue.js</span>
+                    </div>
+                    <div class="skills__list-item">
+                        <svg class="skills__list-item-svg" width="128" height="128">
+                            <circle cy="64" cx="136" r="60" fill="transparent" stroke="var(--skills-border-color)" stroke-width="8" stroke-dasharray="0,0,1000" transform="rotate(-90 100 100)"></circle>
                             <circle class="progress--bem" cy="64" cx="136" r="60" fill="transparent" stroke="var(--skills-border-value-color)" stroke-width="8" stroke-dasharray="0% 1000" transform="rotate(-90 100 100)"></circle>
                             <image x="25%" y="25%" width="64" height="64" xlink:href="img/bem.svg"></image>
                         </svg>
                         <span class="skills__list-item-name">БЭМ</span>
-                    </div>   
+                    </div> 
+                    <div class="skills__list-item">
+                        <svg class="skills__list-item-svg" width="128" height="128">
+                            <circle cy="64" cx="136" r="60" fill="transparent" stroke="var(--skills-border-color)" stroke-width="8" stroke-dasharray="0,0,1000" transform="rotate(-90 100 100)"></circle>
+                            <circle class="progress--word-press" cy="64" cx="136" r="60" fill="transparent" stroke="var(--skills-border-value-color)" stroke-width="8" stroke-dasharray="0% 1000" transform="rotate(-90 100 100)"></circle>
+                            <image x="25%" y="25%" width="64" height="64" xlink:href="img/wp.svg"></image>
+                        </svg>
+                        <span class="skills__list-item-name">WordPress</span>
+                    </div>  
                 </div>
             </div>
         </div>
@@ -128,7 +144,7 @@
                 </p>
                 <p class="section__text">
                     Очень мотивирован на то чтобы продолжать расти профессионально, прокачивать скиллы в сторону полноценной фронт-энд разработки,
-                    причем в любом формате - фриланс, частичная занятость, удаленка, работа в офисе на фулл-тайм. В идеале - интерном или джуном в ИТ контору =)
+                    причем в любом формате - фриланс, частичная занятость, удаленка, работа в офисе на фулл-тайм. В идеале - джуном в ИТ контору =)
                 </p>
             </div>
             <div class="section">
@@ -150,7 +166,9 @@
                     <li class="section__list-item"><span>BEM</span></li>
                     <li class="section__list-item"><span>Gulp</span></li>
                     <li class="section__list-item"><span>Jquery</span></li>
+                    <li class="section__list-item"><span>Vue.js</span></li>
                     <li class="section__list-item"><span>Git, github</span></li>
+                    <li class="section__list-item"><span>WordPress</span></li>
                 </ul>
             </div>
             <div class="section">
@@ -333,7 +351,11 @@
             }
             if ($('body').scrollTop() > 500) {
                 $('.progress--jquery').css('animation','progress-jquery 1s linear forwards');
-                $('.progress--bem').css('animation','progress-bem 1s linear forwards');
+                $('.progress--vue-js').css('animation','progress-vue-js 1s linear forwards');
+            }
+            if ($('body').scrollTop() > 600) {
+                $('.progress--bem').css('animation','progress-jquery 1s linear forwards');
+                $('.progress--word-press').css('animation','progress-word-press 1s linear forwards');
             }
         
         });
