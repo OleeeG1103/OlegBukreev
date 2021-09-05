@@ -99,7 +99,6 @@ body {
   grid-template-rows: repeat(auto-fill);
   grid-template-columns: 130px 130px;
   gap: 20px;
-  height: 100%;
   font-size: 18px;
 }
 
